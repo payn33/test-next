@@ -1,7 +1,15 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import useHover from "../utils/useHover";
+import Cursor from "../components/cursor";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  const [isHovered] = useHover();
+  return (
+    <div>
+      <Cursor hover={isHovered} />
+      <Component {...pageProps} />
+    </div>
+  );
 }
 
-export default MyApp
+export default MyApp;
