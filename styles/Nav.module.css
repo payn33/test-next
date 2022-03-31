@@ -2,7 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 99;
+  padding: 20px 60px 0 60px;
+}
+@media (max-width: 800px) {
+  .container {
+    padding: 20px 25px 0 25px;
+  }
 }
 .logo p {
   display: inline-block;
@@ -15,7 +25,7 @@
   align-items: center;
   cursor: pointer;
   position: relative;
-  z-index: 99;
+  z-index: 9999;
 }
 
 .burger p {
@@ -27,11 +37,15 @@
   height: 100vh;
   top: 0%;
   right: 0%;
-  min-width: 400px;
+  min-width: 480px;
   padding: 40px;
-  background-color: rgba(254, 254, 254, 0.4);
+  background-color: rgba(254, 254, 254, 0.9);
+  z-index: 999;
 }
-@media (max-width: 700px) {
+@media (max-width: 480px) {
+  .menu_wrapper {
+    min-width: 100%;
+  }
 }
 .menu {
   display: flex;
@@ -41,9 +55,6 @@
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 40px;
-  line-height: 1.2;
-  font-weight: bold;
 }
 .menu a,
 .burger p,
@@ -52,6 +63,9 @@
 .menu {
   background-color: transparent;
 }
-.menu a {
+.menu button {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: bold;
   margin: 10px 0;
 }

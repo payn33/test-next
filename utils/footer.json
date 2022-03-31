@@ -1,0 +1,31 @@
+{
+  "text": {
+    "header": "Building the Ideal African Tech Lady",
+    "body": "Building the ideal African Tech Lady! Raising self confident, self aware ladies with the fighting chance to compete favorably in the Blockchain and tech space."
+  },
+  "links": {
+    "header": "Quick Links",
+    "col1": [
+      { "title": "About", "link": "/" },
+      { "title": "Sponsor", "link": "/sponsor" },
+      { "title": "Blog", "link": "/blog" },
+      { "title": "Team", "link": "/team" },
+      { "title": "Jobs", "link": "/jobs" }
+    ],
+    "col2": [
+      { "title": "Events", "link": "/events" },
+      { "title": "Mentorship", "link": "/mentorship" },
+      { "title": "Community", "link": "/community" },
+      { "title": "Contact", "link": "/contact" }
+    ]
+  },
+  "contact": {
+    "header": "REACH OUT TO US",
+    "col": [
+      { "title": "Instagram", "Link": "" },
+      { "title": "Twitter", "link": "" },
+      { "title": "Facebook", "link": "" }
+    ]
+  },
+  "foot": "Copyright © 2021 Ladies Do Tech. All rights reserved."
+}

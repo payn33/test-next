@@ -1,0 +1,37 @@
+{
+  "one": {
+    "text": "Equipping ladies with relevant Blockchain skills to thrive in the Web3 ecosystem",
+    "button": "Join Us Today",
+    "header": "OUR CORE FOCUS",
+    "body": " Our aim is to raise confident, audacious and technically sound Web3 ladies through our Web3 community and uniquely tailored mentorship cohorts. "
+  },
+  "two": {
+    "header": "JOIN OUR COMMUNITY",
+    "body": "We'll work hand in hand together, not only to challenge the status quo but also to create impactful open-sourced solutions as females in the Blockchain space.",
+    "button": "Join Our Community"
+  },
+  "three": {
+    "header": "HIGHLIGHTS OF THE WEEK"
+  },
+  "four": {
+    "header": "HOW WE CREATE IMPACT",
+    "content": [
+      {
+        "title": "Mentorship Programs",
+        "body": "Erat donec hac convallis augue sagittis, viverra nisl. Donec id dolor faucibus viverra lectus ultrices commodo dolor, fermentum. In ullamcorper dolor justo nec dictum egestas. Sit a, nunc eleifend risus id. Sit lectus id massa felis turpis."
+      },
+      {
+        "title": "Monthly Trainings",
+        "body": "Erat donec hac convallis augue sagittis, viverra nisl. Donec id dolor faucibus viverra lectus ultrices commodo dolor, fermentum. In ullamcorper dolor justo nec dictum egestas. Sit a, nunc eleifend risus id. Sit lectus id massa felis turpis."
+      },
+      {
+        "title": "Cryptocurrency Trading Classes",
+        "body": "Phasellus tristique nulla id curabitur non duis. Augue fermentum viverra non fermentum pulvinar felis mollis placerat. Mattis dictumst est, nullam scelerisque. "
+      },
+      {
+        "title": "Networking Opportunities",
+        "body": "Diam in donec commodo consequat enim et sit odio. Auctor ultrices accumsan congue dignissim ut morbi vel congue. "
+      }
+    ]
+  }
+}

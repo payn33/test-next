@@ -1,0 +1,12 @@
+.text {
+  display: inline-block;
+  transition: all 0.7s;
+}
+
+.button {
+  display: inline-flex;
+  position: relative;
+  transition: all 0.7s;
+  overflow: hidden;
+}
+
