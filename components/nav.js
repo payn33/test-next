@@ -1,10 +1,12 @@
-import React, { forwardRef, useState } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { AnimatePresence, motion, useAnimation } from "framer-motion";
 import items from "../utils/nav.json";
 import styles from "../styles/Nav.module.css";
 import _Image from "./image";
 import { AnimateDiv, Presence } from "./animations";
+import logo from "../public/logo.png";
+import Button from "./button";
 import useHover from "../utils/useHover";
 
 const Nav = () => {
@@ -38,13 +40,11 @@ const Nav = () => {
       bottomControl.start(bottomLine.closed);
     }
   };
-  console.log(hoverRef, isHovered);
   return (
     <React.Fragment>
-      {" "}
       <div className={styles.container}>
         <div className={styles.logo}>
-          <_Image src={"/logo.png"} alt={"logo"} width={50} height={50} />
+          <_Image src={logo} alt={"logo"} width={50} height={50} />
           <p>
             Web3
             <br />
@@ -90,9 +90,16 @@ const Nav = () => {
             >
               <div className={styles.menu}>
                 {items.map((data) => (
-                  <Link href={`/${data.link}`} ref={hoverRef} key={data.id}>
-                    {data.name}
-                  </Link>
+                  <Button
+                    key={data.id}
+                    class={styles.blue}
+                    action={navHandler}
+                    ref={hoverRef}
+                    animate={true}
+                    nav={true}
+                  >
+                    <Link href={`${data.link}`}>{data.name}</Link>
+                  </Button>
                 ))}
               </div>
             </AnimateDiv>
@@ -103,4 +110,4 @@ const Nav = () => {
   );
 };
 
-export default forwardRef(Nav);
+export default Nav;

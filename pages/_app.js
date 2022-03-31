@@ -1,14 +1,15 @@
 import "../styles/globals.css";
 import useHover from "../utils/useHover";
 import Cursor from "../components/cursor";
+import Layout from "../layouts/defaultLayout";
 
 function MyApp({ Component, pageProps }) {
   const [isHovered] = useHover();
   return (
-    <div>
-      <Cursor hover={isHovered} />
+    <Layout>
+      {/* <Cursor hover={isHovered} /> */}
       <Component {...pageProps} />
-    </div>
+    </Layout>
   );
 }
 

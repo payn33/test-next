@@ -1,10 +1,15 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Nav from "../components/nav";
-
+import { One, Two, Three, Four } from "../components/home";
 export default function Home() {
-  return <Nav />;
+  return (
+    <div className={styles.container}>
+      <One />
+      <Two />
+      <Three />
+      <Four />
+    </div>
+  );
   // <div className={styles.container}>
   //   <Head>
   //     <title>Create Next App</title>
